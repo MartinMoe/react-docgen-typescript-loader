@@ -1,5 +1,5 @@
 {
-  "name": "react-docgen-typescript-loader",
+  "name": "@esqimoe/react-docgen-typescript-loader",
   "version": "3.7.2",
   "description": "Webpack loader to generate docgen information from TypeScript React components.",
   "keywords": [
@@ -10,9 +10,9 @@
     "webpack",
     "loader"
   ],
-  "homepage": "https://github.com/strothj/react-docgen-typescript-loader",
-  "bugs": "https://github.com/strothj/react-docgen-typescript-loader/issues",
-  "repository": "https://github.com/strothj/react-docgen-typescript-loader.git",
+  "homepage": "https://github.com/MartinMoe/react-docgen-typescript-loader",
+  "bugs": "https://github.com/MartinMoe/react-docgen-typescript-loader/issues",
+  "repository": "https://github.com/MartinMoe/react-docgen-typescript-loader.git",
   "author": "strothj (https://github.com/strothj)",
   "main": "dist/index.js",
   "license": "MIT",
