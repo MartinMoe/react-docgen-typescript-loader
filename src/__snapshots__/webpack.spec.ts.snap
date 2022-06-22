@@ -98,21 +98,39 @@ exports[`all component fixtures compile successfully fixture: DefaultPropValue.t
 
 \\"use strict\\";
 
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || (\\"get\\" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, \\"default\\", { enumerable: true, value: v });
+}) : function(o, v) {
+    o[\\"default\\"] = v;
+});
 var __importStar = (this && this.__importStar) || function (mod) {
     if (mod && mod.__esModule) return mod;
     var result = {};
-    if (mod != null) for (var k in mod) if (Object.hasOwnProperty.call(mod, k)) result[k] = mod[k];
-    result[\\"default\\"] = mod;
+    if (mod != null) for (var k in mod) if (k !== \\"default\\" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
     return result;
 };
 Object.defineProperty(exports, \\"__esModule\\", { value: true });
+exports.DefaultPropValueComponent = void 0;
 var React = __importStar(__webpack_require__(/*! react */ \\"react\\"));
 /**
  * Component with a prop with a default value.
  */
-exports.DefaultPropValueComponent = function (props) { return (React.createElement(\\"button\\", { disabled: props.disabled, style: { backgroundColor: props.color } },
+var DefaultPropValueComponent = function (props) { return (React.createElement(\\"button\\", { disabled: props.disabled, style: { backgroundColor: props.color } },
     props.counter,
     props.children)); };
+exports.DefaultPropValueComponent = DefaultPropValueComponent;
 exports.DefaultPropValueComponent.defaultProps = {
     counter: 123,
     disabled: false,
@@ -244,19 +262,37 @@ exports[`all component fixtures compile successfully fixture: HyphenatedPropName
 
 \\"use strict\\";
 
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || (\\"get\\" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, \\"default\\", { enumerable: true, value: v });
+}) : function(o, v) {
+    o[\\"default\\"] = v;
+});
 var __importStar = (this && this.__importStar) || function (mod) {
     if (mod && mod.__esModule) return mod;
     var result = {};
-    if (mod != null) for (var k in mod) if (Object.hasOwnProperty.call(mod, k)) result[k] = mod[k];
-    result[\\"default\\"] = mod;
+    if (mod != null) for (var k in mod) if (k !== \\"default\\" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
     return result;
 };
 Object.defineProperty(exports, \\"__esModule\\", { value: true });
+exports.HyphenatedPropNameComponent = void 0;
 var React = __importStar(__webpack_require__(/*! react */ \\"react\\"));
 /**
  * A component with a hyphenated prop name.
  */
-exports.HyphenatedPropNameComponent = function (props) { return (React.createElement(\\"button\\", { style: { backgroundColor: props[\\"button-color\\"] } }, props.children)); };
+var HyphenatedPropNameComponent = function (props) { return (React.createElement(\\"button\\", { style: { backgroundColor: props[\\"button-color\\"] } }, props.children)); };
+exports.HyphenatedPropNameComponent = HyphenatedPropNameComponent;
 try {
     // @ts-ignore
     exports.HyphenatedPropNameComponent.displayName = \\"HyphenatedPropNameComponent\\";
@@ -384,19 +420,37 @@ exports[`all component fixtures compile successfully fixture: MultiProps.tsx 1`]
 
 \\"use strict\\";
 
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || (\\"get\\" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, \\"default\\", { enumerable: true, value: v });
+}) : function(o, v) {
+    o[\\"default\\"] = v;
+});
 var __importStar = (this && this.__importStar) || function (mod) {
     if (mod && mod.__esModule) return mod;
     var result = {};
-    if (mod != null) for (var k in mod) if (Object.hasOwnProperty.call(mod, k)) result[k] = mod[k];
-    result[\\"default\\"] = mod;
+    if (mod != null) for (var k in mod) if (k !== \\"default\\" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
     return result;
 };
 Object.defineProperty(exports, \\"__esModule\\", { value: true });
+exports.MultiPropsComponent = void 0;
 var React = __importStar(__webpack_require__(/*! react */ \\"react\\"));
 /**
  * This is a component with multiple props.
  */
-exports.MultiPropsComponent = function (props) { return (React.createElement(\\"button\\", { style: { backgroundColor: props.color } }, props.children)); };
+var MultiPropsComponent = function (props) { return (React.createElement(\\"button\\", { style: { backgroundColor: props.color } }, props.children)); };
+exports.MultiPropsComponent = MultiPropsComponent;
 try {
     // @ts-ignore
     exports.MultiPropsComponent.displayName = \\"MultiPropsComponent\\";
@@ -524,21 +578,39 @@ exports[`all component fixtures compile successfully fixture: MultilineDescripti
 
 \\"use strict\\";
 
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || (\\"get\\" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, \\"default\\", { enumerable: true, value: v });
+}) : function(o, v) {
+    o[\\"default\\"] = v;
+});
 var __importStar = (this && this.__importStar) || function (mod) {
     if (mod && mod.__esModule) return mod;
     var result = {};
-    if (mod != null) for (var k in mod) if (Object.hasOwnProperty.call(mod, k)) result[k] = mod[k];
-    result[\\"default\\"] = mod;
+    if (mod != null) for (var k in mod) if (k !== \\"default\\" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
     return result;
 };
 Object.defineProperty(exports, \\"__esModule\\", { value: true });
+exports.MultilineDescriptionComponent = void 0;
 var React = __importStar(__webpack_require__(/*! react */ \\"react\\"));
 /**
  * A component with a multiline description.
  *
  * Second line.
  */
-exports.MultilineDescriptionComponent = function (props) { return (React.createElement(\\"button\\", { style: { backgroundColor: props.color } }, props.children)); };
+var MultilineDescriptionComponent = function (props) { return (React.createElement(\\"button\\", { style: { backgroundColor: props.color } }, props.children)); };
+exports.MultilineDescriptionComponent = MultilineDescriptionComponent;
 try {
     // @ts-ignore
     exports.MultilineDescriptionComponent.displayName = \\"MultilineDescriptionComponent\\";
@@ -666,19 +738,37 @@ exports[`all component fixtures compile successfully fixture: MultilinePropDescr
 
 \\"use strict\\";
 
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || (\\"get\\" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, \\"default\\", { enumerable: true, value: v });
+}) : function(o, v) {
+    o[\\"default\\"] = v;
+});
 var __importStar = (this && this.__importStar) || function (mod) {
     if (mod && mod.__esModule) return mod;
     var result = {};
-    if (mod != null) for (var k in mod) if (Object.hasOwnProperty.call(mod, k)) result[k] = mod[k];
-    result[\\"default\\"] = mod;
+    if (mod != null) for (var k in mod) if (k !== \\"default\\" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
     return result;
 };
 Object.defineProperty(exports, \\"__esModule\\", { value: true });
+exports.MultilinePropDescriptionComponent = void 0;
 var React = __importStar(__webpack_require__(/*! react */ \\"react\\"));
 /**
  * A component with multiline prop description.
  */
-exports.MultilinePropDescriptionComponent = function (props) { return (React.createElement(\\"button\\", { style: { backgroundColor: props.color } }, props.children)); };
+var MultilinePropDescriptionComponent = function (props) { return (React.createElement(\\"button\\", { style: { backgroundColor: props.color } }, props.children)); };
+exports.MultilinePropDescriptionComponent = MultilinePropDescriptionComponent;
 try {
     // @ts-ignore
     exports.MultilinePropDescriptionComponent.displayName = \\"MultilinePropDescriptionComponent\\";
@@ -806,19 +896,37 @@ exports[`all component fixtures compile successfully fixture: Simple.tsx 1`] = `
 
 \\"use strict\\";
 
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || (\\"get\\" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, \\"default\\", { enumerable: true, value: v });
+}) : function(o, v) {
+    o[\\"default\\"] = v;
+});
 var __importStar = (this && this.__importStar) || function (mod) {
     if (mod && mod.__esModule) return mod;
     var result = {};
-    if (mod != null) for (var k in mod) if (Object.hasOwnProperty.call(mod, k)) result[k] = mod[k];
-    result[\\"default\\"] = mod;
+    if (mod != null) for (var k in mod) if (k !== \\"default\\" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
     return result;
 };
 Object.defineProperty(exports, \\"__esModule\\", { value: true });
+exports.SimpleComponent = void 0;
 var React = __importStar(__webpack_require__(/*! react */ \\"react\\"));
 /**
  * A simple component.
  */
-exports.SimpleComponent = function (props) { return (React.createElement(\\"button\\", { style: { backgroundColor: props.color } }, props.children)); };
+var SimpleComponent = function (props) { return (React.createElement(\\"button\\", { style: { backgroundColor: props.color } }, props.children)); };
+exports.SimpleComponent = SimpleComponent;
 try {
     // @ts-ignore
     exports.SimpleComponent.displayName = \\"SimpleComponent\\";
@@ -946,21 +1054,39 @@ exports[`all component fixtures compile successfully fixture: TextOnlyComponent.
 
 \\"use strict\\";
 
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || (\\"get\\" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, \\"default\\", { enumerable: true, value: v });
+}) : function(o, v) {
+    o[\\"default\\"] = v;
+});
 var __importStar = (this && this.__importStar) || function (mod) {
     if (mod && mod.__esModule) return mod;
     var result = {};
-    if (mod != null) for (var k in mod) if (Object.hasOwnProperty.call(mod, k)) result[k] = mod[k];
-    result[\\"default\\"] = mod;
+    if (mod != null) for (var k in mod) if (k !== \\"default\\" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
     return result;
 };
 Object.defineProperty(exports, \\"__esModule\\", { value: true });
+exports.SimpleComponent = void 0;
 var React = __importStar(__webpack_require__(/*! react */ \\"react\\"));
 /**
  * A component with only text content wrapped in a div.
  *
  * Ref: https://github.com/strothj/react-docgen-typescript-loader/issues/7
  */
-exports.SimpleComponent = function () { return (React.createElement(\\"div\\", null, \\"Test only component\\")); };
+var SimpleComponent = function () { return (React.createElement(\\"div\\", null, \\"Test only component\\")); };
+exports.SimpleComponent = SimpleComponent;
 try {
     // @ts-ignore
     exports.SimpleComponent.displayName = \\"SimpleComponent\\";

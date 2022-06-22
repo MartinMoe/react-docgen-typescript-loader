@@ -43,7 +43,9 @@ export default function loader(
     return;
   } catch (e) {
     if (callback) {
-      callback(e);
+      if (e instanceof Error) {
+        callback(e);
+      }
       return;
     }
     throw e;
